@@ -1,3 +1,11 @@
+<h1>Creality Based Polargraph</h1>
+
+<p>This project utilizes a Creality v1.1.4 or v1.1.5 board and CR10 style LCD display sourced from an Ender 3 to operate a polargraph (vertical plotter) drawing bot.</p>
+
+<p>Inspired and guided by the <a href="http://www.makelangelo.com">Makelangelo Art Robot</a>, the goal of this project is to upgrade my previous, somewhat antiquainted and clumsy, Arduino Uno based polargraph build by re-utilizing an Ender 3 3D printer motherboard and screen for a more refined workflow that more closely resembles the experience of a 3D printer.</p>
+
+<hr>
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
