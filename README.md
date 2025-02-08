@@ -4,7 +4,7 @@
 
 <p>Inspired and guided by the <a href="http://www.makelangelo.com">Makelangelo Art Robot</a>, the goal of this project is to upgrade my previous, somewhat antiquainted and clumsy, Arduino Uno based polargraph build by re-utilizing an Ender 3 3D printer motherboard and screen for a more refined workflow that more closely resembles the experience of a 3D printer.</p>
 
-<p>I've also posted a <a href="https://www.printables.com/model/1182197-creality-electronics-enclosure-mainboard-lcd-fan-a">handy electronics enclosure on Printabes.com</a> for mounting to a polargrph.</p>
+<p>I've also posted a <a href="https://www.printables.com/model/1182197-creality-electronics-enclosure-mainboard-lcd-fan-a" target="_blank">handy electronics enclosure on Printabes.com</a> for mounting to a polargrph.</p>
 
 <hr>
 
