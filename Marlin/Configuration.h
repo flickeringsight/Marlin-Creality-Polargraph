@@ -984,7 +984,7 @@
 // Enable for Polargraph Kinematics
 #define POLARGRAPH  //abj
 #if ENABLED(POLARGRAPH)
-  #define POLARGRAPH_MAX_BELT_LEN 2248.75  // (mm) Belt length at full extension. Override with M665 H.
+  #define POLARGRAPH_MAX_BELT_LEN 2462.8 // (mm) Belt length at full extension. Override with M665 H.
   #define DEFAULT_SEGMENTS_PER_SECOND 5   // Move segmentation based on duration
   #define PEN_UP_DOWN_MENU                // Add "Pen Up" and "Pen Down" to the MarlinUI menu
   #if MOTHERBOARD == BOARD_MELZI_CREALITY
@@ -1885,8 +1885,8 @@
 // @section geometry
 
 // The size of the printable area
-#define X_BED_SIZE 1724 //abj
-#define Y_BED_SIZE 2100
+#define X_BED_SIZE 1754 //abj
+#define Y_BED_SIZE 2000
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
 #define X_MIN_POS (-X_BED_SIZE/2)
@@ -2327,7 +2327,7 @@
 // Manually set the home position. Leave these undefined for automatic settings.
 // For DELTA this is the top-center of the Cartesian print volume.
 #define MANUAL_X_HOME_POS 0 //abj
-#define MANUAL_Y_HOME_POS -1163.05 //abj  Y_MAX_POS - ( sqrt( sq(POLARGRAPH_MAX_BELT_LEN) - sq(X_BED_SIZE/2) ) )
+#define MANUAL_Y_HOME_POS -1301.36  // Y_MAX_POS-(sqrt(sq(POLARGRAPH_MAX_BELT_LEN)-sq(X_BED_SIZE/2))) //abj  
 //#define MANUAL_Z_HOME_POS 0
 //#define MANUAL_I_HOME_POS 0
 //#define MANUAL_J_HOME_POS 0
@@ -2352,7 +2352,7 @@
 #endif
 
 // Homing speeds (linear=mm/min, rotational=°/min)
-#define HOMING_FEEDRATE_MM_M { (65*60), (65*60), (4*60) } //abj
+#define HOMING_FEEDRATE_MM_M { (80*60), (80*60), (4*60) } //abj
 
 // Edit homing feedrates with M210 and MarlinUI menu items
 #define EDITABLE_HOMING_FEEDRATE //abj
@@ -2678,7 +2678,7 @@
  * SD Card support is disabled by default. If your controller has an SD slot,
  * you must uncomment the following option or it won't work.
  */
-#define SDSUPPORT
+#define SDSUPPORT //abj
 
 /**
  * SD CARD: ENABLE CRC
