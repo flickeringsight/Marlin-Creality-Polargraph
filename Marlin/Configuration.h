@@ -2327,7 +2327,7 @@
 // Manually set the home position. Leave these undefined for automatic settings.
 // For DELTA this is the top-center of the Cartesian print volume.
 #define MANUAL_X_HOME_POS 0 //abj
-#define MANUAL_Y_HOME_POS -1050.00 //-1025.73 //abj  Y_MAX_POS - ( sqrt( sq(POLARGRAPH_MAX_BELT_LEN) - sq(X_BED_SIZE/2) ) )
+#define MANUAL_Y_HOME_POS -1163.05 //abj  Y_MAX_POS - ( sqrt( sq(POLARGRAPH_MAX_BELT_LEN) - sq(X_BED_SIZE/2) ) )
 //#define MANUAL_Z_HOME_POS 0
 //#define MANUAL_I_HOME_POS 0
 //#define MANUAL_J_HOME_POS 0
@@ -2352,7 +2352,7 @@
 #endif
 
 // Homing speeds (linear=mm/min, rotational=°/min)
-#define HOMING_FEEDRATE_MM_M { (100*60), (100*60), (4*60) } //abj
+#define HOMING_FEEDRATE_MM_M { (65*60), (65*60), (4*60) } //abj
 
 // Edit homing feedrates with M210 and MarlinUI menu items
 #define EDITABLE_HOMING_FEEDRATE //abj
